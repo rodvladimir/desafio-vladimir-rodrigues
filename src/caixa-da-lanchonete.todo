@@ -1,0 +1,23 @@
+# Regras de negocio
+
+Regras:
+    ● CaixaDaLanchonete › compra "com carrinho vazio" em "dinheiro" deve resultar em "Não há itens no carrinho de compra!"
+    ● CaixaDaLanchonete › compra "com carrinho vazio" em "credito" deve resultar em "Não há itens no carrinho de compra!"
+    ● CaixaDaLanchonete › compra "com carrinho vazio" em "debito" deve resultar em "Não há itens no carrinho de 
+	    compra!"
+    ● CaixaDaLanchonete › compra simples em "dinheiro" deve resultar em "R$ 2,85"
+    ● CaixaDaLanchonete › compra simples em "credito" deve resultar em "R$ 3,09"
+    ● CaixaDaLanchonete › compra simples em "debito" deve resultar em "R$ 3,00"
+    ● CaixaDaLanchonete › compra de 3 itens em "credito" deve resultar em "R$ 11,85"
+    ● CaixaDaLanchonete › compra de 3 itens em "debito" deve resultar em "R$ 11,50"
+    ● CaixaDaLanchonete › compra de múltiplas quantidades em "dinheiro" deve resultar em "R$ 33,73"
+    ● CaixaDaLanchonete › compra de múltiplas quantidades em "credito" deve resultar em "R$ 36,56"
+    ● CaixaDaLanchonete › compra de múltiplas quantidades em "debito" deve resultar em "R$ 35,50"
+    ● CaixaDaLanchonete › compra "com quantidade zero" em "dinheiro" deve resultar em "Quantidade inválida!"
+    ● CaixaDaLanchonete › compra "com um valor" em "credito" deve resultar em "Item inválido!"
+    ● CaixaDaLanchonete › compra "com código inexistente" em "debito" deve resultar em "Item inválido!"
+    ● CaixaDaLanchonete › compra "com forma de pagamento inválida" em "especie" deve resultar em "Forma de pagamento inválida!"
+    ● CaixaDaLanchonete › compra "chantily" em "dinheiro" deve resultar em "Item extra não pode ser pedido sem o principal"
+    ● CaixaDaLanchonete › compra "queijo" em "credito" deve resultar em "Item extra não pode ser pedido sem o principal"
+    ● CaixaDaLanchonete › compra "queijo" em "credito" deve resultar em "Item extra não pode ser pedido sem o principal"
+    ● CaixaDaLanchonete › compra "queijo com outro item" em "debito" deve resultar em "Item extra não pode ser pedido sem o principal"
